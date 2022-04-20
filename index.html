@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+
+<!-- By Natalie Young, 2022
+comments here-->
+
+<html lang="eng">
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width">
+		<title>SnohomishD3!</title>
+
+		<!--put your external stylesheet links here-->
+		<link rel="stylesheet" href="css/style.css">
+	</head>
+
+	<body>
+		<!-- Initial Page Content -->
+		
+		<h1 align=center id='header'>Educational Attainment in Everett, WA</h1>
+
+		<div id="intro">
+			<p>Explore educational attainment levels in neighborhoods from Everett to the southern Snohomish County/King County border. The areas shown are census tracts covering Everett, Mukilteo, Lynnwood, Edmonds, Maltby, part of Bothell, and other nearby communities.</p>
+			<p>The data reflect the highest educational attainment level for the population aged 25 and older. Five levels are included here: Less than 9th grade, high school graduate or higher, Bachelor's degree, Graduate degree, and Bachelor's degree or higher. Use the dropdown menu to select the level.</p>
+		</div>
+
+
+		<div id="citation">
+			<p>Created by <b>Natalie Young,</b> 2022: University of Wisconsin - Madison, Geography</p>
+			<p>Data Source: American Community Survey 2020 (Table B25077), U.S. Census Bureau</p>
+			<p>Note: The education levels shown are a selection of the full span of attainment levels and are not mutually exclusive categories.</p>
+		</div>
+
+		<!--<div id="panel">
+		Data Source: this work? This is old, update it. IPUMS NHGIS, University of Minnesota, <a href="https://www.nhgis.org">www.nhgis.org</a> (Time Series Table AVO).<br>
+		Other source information here.<br>
+		</br>
+		Data Notes: Update me<br>
+		With critical information<br>
+		Geographic Notes: critical info<br>
+		</div>-->
+        
+		<!-- External javascript links, followed by main.js -->
+		<!-- Below is a direct link to the latest release of D3 - I'm using an older version -->
+		<!--<script src="https://d3js.org/d3.v7.min.js"></script>-->
+        <script type="text/javascript" src="lib/d3/d3.min.js"></script>
+        <script type="text/javascript" src="lib/d3/d3-geo.v1.min.js"></script>
+        <script type="text/javascript" src="lib/d3-queue/d3-queue.min.js"></script>
+        <script type="text/javascript" src="lib/topojson/topojson.min.js"></script>
+		<script type="text/javascript" src="lib/simple-statistics.js"></script>   
+		<script type="text/javascript" src="js/main.js"></script>
+		
+	</body>
+</html>
+
+<!--Ideas for Future Improvement:
+*needs better location context, reference info
+*draw highlights from data or compare to WA state, USA. -->
+
